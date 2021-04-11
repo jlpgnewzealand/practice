@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+
+<style>
+.body, body{
+    font-family: cursive;
+    text-align: center;
+}
+
+.header, header{
+    letter-spacing: 6px;
+    padding: 20px;
+    color: white
+}
+
+    .Container, Container{
+    display: flex;
+    justify-content: center;
+        flex-wrap: wrap;  
+}
+
+.Card, Card{
+    border: 1px solid #ccc;
+    background-color:floralwhite;
+    margin: 25px;
+    padding: 25px;
+    box-shadow: 6px 6px 6px
+        rgba(0,0,0,0,3);    
+}
+
+@media screen and (min-width: 50em){
+    .Card, Card{
+        flex-basis: 325px;
+    }
+    .header, header h1 {
+        font-size: 5em;
+    }
+}
+
+.icons, icons{
+    font-size: 8em;
+    padding 25px;  
+}
+
+.button, .container{
+    margin: 10px;
+}
+
+button, .button {
+    background: royalblue;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.blue{
+    background: skyblue;
+    background-size:   
+}
+
+td, .td {
+padding: 10px;
+}
+
+table {
+margin: 1%;
+}
+ #my-order{
+padding: 25px;
+     display: none;
+     width: auto;
+     height: auto;
+}
+
+.footer, footer{
+   background: grey;
+    height: 450px;
+    width: 6966px;
+        
+   
+}
+
+
+.team{
+    background-color:black;
+}
+
+
+div.Monza{
+    content: url(Images/Joe2.jpeg);
+          width: 350px;
+    height: 500px;
+       
+}
+
+div.Koenigsegg{
+    content: url(Images/Joe.jpeg);
+     width: 700px;
+    height: 475px;
+}
+   
+
+div.GT3{
+    content: url(Images/8540D688-46E2-466F-B1A4-B632B183A623.jpeg);
+    width: 350px;
+    height: 500px;
+       
+}
+
+
+
+
+body {
+  background:url(Images/3A06D5E4-6B2F-4220-8E77-A1BB6CFDAAB0.jpeg) repeat fixed;
+  background-size: 100%;
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+    
+</style>
+   
+<!DOCTYPE html>
+<html>
+ 
+  
+   
+<head>
+   
+<link rel="stylesheet" href="styles.css">
+     
+</head>
+    <body>
+   
+    <header>
+        <h1 style="color:white">jlpgnewzealand</h1>
+       
+        <h4 style="color: white">What is it really like?</h4>
+    </header>
+        <h2 style="color: white">Welcome</h2>
+        <p style="color: white">Hi, Im Jordan. I am a 15 year old automotive photographer</p>
+        <br>
+        <br>
+        <p style="color: white"> ABOUT ME: Automotive photographers come in many sorts of classes. Some focus more on the Supercar and Hypercars
+            <br>
+            (Me) some focus more on the JDM side of things. It doesn't really matter what cars you take photos of. It's all about the photographers skills. 
+            <br>
+            For example...I could make a Volkswagon Beetle look twice the price that it really is.</p>
+                <h2 style="color: white">  My photoshoot bundles. </h2>
+    <section class=" blue Container">
+
+       
+       
+
+        
+        
+          
+        <article class="Card">
+               
+            <div class="Monza"> </div>
+            <h3>Static shoot (45mins) 15+ quality images.</h3>
+            <p> This is probably the most commonly purchased package. </p>
+            <button>Click Here</button>
+             </article>
+           
+        <article class="Card">
+            <div class="Koenigsegg">;</div>
+        <h3>Static shoot 2 locations (90mins) 30+ Quality images </h3>
+            <p>This is one of my most enjoyable packs.</p>
+            <a href="www.jlpgnewzealand.com"></a><button>Click Here</button> 
+        </article>
+       
+        <article class="Card">
+            <div class="GT3"></div>
+        <h3>Custom Pack</h3>
+            <p>A custom pack is what you'd make it. You can do 3 locations + Rolling shots, just rolling shots...It's endless!</p>
+            <button>Click Here</button>
+        </article>
+       
+        
+        
+        
+        
+        
+        
+        
+        <article class="Card">
+        
+            <img src="Images/JLPGNZ2.PNG" width="300" height="300"> 
+            <h3>Jordan Lindsay</h3>
+            <p>Self taught Automotive Photographer Based in Auckland New Zealand. </p>
+            <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> <button> Contact </button> </a> 
+             </article>
+           
+        <article class="Card">
+             <img src="Images/Xenon.png" width="300" height="70"> 
+        <h3>Cruz Belarot</h3>
+            <p>Xenon.media helps alot with videography and gimbal use.</p>
+            <button>Contact</button>
+        </article>
+       
+         </section>
+         <section class=" blue Container">
+        <h2 style="color: white">Order Placement</h2>
+             <form id="my-form">
+             
+            <table>
+            <tr>    
+                <td style="color: white"> Name: </td>
+                <td><input type="text" size="25" name="my-name"></td>
+                </tr>
+               
+            <tr>
+               
+                <td style="color: white"> Contact Details (eg: email):</td>
+              <td><input type="text" size="25" name="my-address"></td>
+                </tr>
+               
+                <tr>
+<td style="color: white"> Photoshoot Package: </td>
+<td>
+<select name="my-choice">
+<option> Package 1 </option>
+<option> Package 2 </option>
+<option> Custom Package </option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td style="color: white"> Quantity: </td>
+<td><input type="number" name="my-qty"
+value="1" min="1" max="5"> <small style="color: white">(max 3)</small></td>
+   
+</tr>
+                <tr>
+                <br>
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                        <input class="button"
+type="button"
+value="Process Order"
+                               onclick="placeOrder()">
+                       
+                        <input class="button"
+                               
+                               type="reset" value="Clear"
+                               onclick="document.getElementById('my-order').style.display = 'none'";>
+                     </td>
+                </tr>
+
+            </table>
+                    </form>
+
+        </section>
+    <form>
+        <section class=" blue Container">
+<h1 style="color: white"> Question Form:</h1>
+
+
+        <br>
+<input type="text" size="35">
+<br>
+            <br>
+            <br>
+            <br>
+            
+<button>Submit</button>
+
+        <div id="my-order">
+</div>
+          
+        <div class="footer">
+            <h3>Thanks for Visiting</h3>
+            <div class="Container">
+            <article class="Card">
+                <h3>Get in Touch</h3>
+                <p>One of the most highly skilled and demanded photographers in New Zealand.</p>
+               
+                </article>
+               
+                <artice class="Card">
+                <h3>Contact me!</h3>
+                    <p>I would love to hear your oppinion on my work.</p>
+                    <br> Call or email me. <br>
+                    Mobile: 69420694206942069420
+                    Email: jlpgnewzealand@gmail.com
+               
+               
+                </artice>
+            </div>
+            &copy;  jlpgnewzealand 2021 
+        </div>
+            <script>
+            function placeOrder() { 
+                var orderForm = document.getElementById("my-form");
+                results = "<h3>Success!</h3> Here is your order.";
+                results += "<br>Name: " + orderForm.elements["my-name"].value;
+                results += "<br>Address: " + orderForm.elements["my-address"].value;
+                results += "<br>I like to order: " + orderForm.elements["my-choice"].value;
+                results += "<br>Quantity: " + orderForm.elements["my-qty"].value;
+                var orderResults = document.getElementById("my-order");
+                 orderResults.style.display="block";
+                orderResults.innerHTML = results;  
+            }
+            </script>
+               
+               
+        </section>
+        </form>
+    
+             
+      <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>  
+        
+        
+        
+        
+        
+    </body>
+   
+</html>
